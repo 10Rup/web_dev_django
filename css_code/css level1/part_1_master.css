@@ -1,0 +1,31 @@
+/* this is a comment /*
+/* comment */
+
+/* css structure */
+/* selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+  background-color: orange;
+}
+
+
+li{
+  color: maroon;
+  background-color: rgb(255,97,0);
+}
+
+/* ol{
+  color: maroon;
+  background-color: rgb(255,97,0);
+} */
+
+p{
+  color: #0098b7
+}
+
+h4{
+  color: rgba(255,95,0,1)
+}

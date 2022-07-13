@@ -1,0 +1,49 @@
+/* div{
+  color: red;
+} */
+
+
+/* in case of a class use . before the class name */
+.firstdiv{
+  color: blue;
+}
+
+.seconddiv{
+  color: green;
+}
+
+/* use # before the element id to style element by id */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/* use astrick (*) for styling all tag, id and class elements as same
+it will over write the code before it.
+Only elements with id will not be affected.*/
+*{
+  color: red;
+}
+
+/* adjacent siblings
+imediatly after h3 or any other tag also known as adjacent siblings
+*/
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/* decendents
+sstyle (a) anchok tag inside (li) list, li a use space between them
+*/
+li a{
+  color: darkgreen;
+}
+
+/* affecting attributes
+styling an anchor tag (a) having href="xyz" that matches with the anchor
+tag in your web page
+*/
+li a[href="https://www.twentyfournews.com/"]{
+  color: navy;
+  border: 5px solid grey;
+}

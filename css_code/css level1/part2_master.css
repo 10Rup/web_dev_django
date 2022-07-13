@@ -1,0 +1,25 @@
+body{
+  /* background-color: grey; */
+  background: url(https://static.independent.co.uk/2022/06/07/09/GettyImages-610292222.jpg?width=1200);
+  background-repeat: no-repeat;
+}
+
+
+div{
+  background-color: red;
+  /* border-width: medium; */
+  border-width: 7px;
+  /* border-style: dotted; */
+  border-style: double;
+  border-color: yellow;
+}
+
+
+p{
+  color: pink;
+}
+
+span{
+  background-color: black;
+  color: skyblue;
+}
