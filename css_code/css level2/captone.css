@@ -1,0 +1,12 @@
+body{
+  border-bottom: 50px solid lightblue;
+  border-left: 50px solid lightblue;
+  border-right: 50px solid lightblue;
+  background-color: #4C4B63;
+  color: white;
+}
+
+h1,h2,p{
+  /* color: white; */
+  text-align: center;
+}
